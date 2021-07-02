@@ -1,5 +1,13 @@
-What is Concurrency ?
+What is Concurrency
+-------------------
   Concurrency is about making progress to multiple task seemingly at the same time, to elaborate it further suppose your have a compute with 
   single cpu and there are two tasks T1 & T2 you have created and which is running by two different threads T1 & T2, the single CPU executes 
   tasks by switching context so quickly that to the end user it seems that two threads are running at the same time, but in reality it does 
   not happen only one thread runs at a time and context switch time is so small that we assure it is running at the same time.
+  
+  
+  
+Parallel Execution
+------------------
+parallel execution is making progress of two task at the same time, for this the pre-requisite is that computer must have atleast two cpus or
+two cpu cores so that they could execute exactly at the same time.
