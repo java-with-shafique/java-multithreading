@@ -17,4 +17,6 @@ Parallel Concurrent Execution
 -----------------------------
 Making progress of more than one task seemingly at the same time on more than one cpu.
 
-
+Parallelism
+-----------
+Parallelism is the process of splitting a task into multiple part and executing into concurrently or parallel concurrently on more than one cpu.
